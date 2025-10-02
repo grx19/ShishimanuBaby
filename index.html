@@ -97,7 +97,7 @@
       font-size: 1.8rem;
       margin-bottom: 1rem;
     }
-    .photos {
+    .pic {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 1rem;
@@ -125,9 +125,13 @@
 
   <div class="button-container">
     <button class="btn" onclick="showPopup('Open me 💌', 'You light up my world like neon lights.')">Open me 💌</button>
+    <img class="pic" src="1.jpeg">
     <button class="btn" onclick="showPopup('Tiny love note 💕', 'Every day with you is my favourite day.')">Tiny love note 💕</button>
+    <img class="pic" src="2.jpeg">
     <button class="btn" onclick="showPopup('Cheesy line 🧀', 'If kisses were stars I’d give you the sky.')">Cheesy line 🧀</button>
+    <img class="pic" src="3.jpeg">
     <button class="btn" onclick="showPopup('Memory lane 📸', 'Remember that time we laughed until we cried? I do, always.')">Memory lane 📸</button>
+    <img class="pic" src="4.jpeg">
     <button class="btn" onclick="showPopup('You + Me ✨', 'You make ordinary moments glow neon-bright.')">You + Me ✨</button>
   </div>
 
@@ -146,10 +150,6 @@
     <p id="popupMessage"></p>
     <button onclick="closePopup()">Close</button>
   </div>
-
-  <footer>
-    <p>Made with ♥ — surprise her and enjoy the reaction!</p>
-  </footer>
 
   <script>
     const popup = document.getElementById('popup');
